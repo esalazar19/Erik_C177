@@ -1,0 +1,36 @@
+Hello Students,
+
+This is what you have to do for homework.
+Remember the deadline to submit the HW is Wenesday at 8:00:00 am.
+
+I. Read chapter 2 from the book Introduction to Scientific Computing for Biologists Author.   
+The book is downloadable here: https://allesinalab.uchicago.edu/wp-content/uploads/2014/05/IntroSciComp2014.pdf
+
+II. Answer the following question. What does this do?   
+
+1. ls [A-Z]* - list files or directories within current directory that begin with any uppercase letter and are then succeeded by any number of other characters that are not a leading dot.
+2. cp *.sh /tmp - copy any file with a name that ends in .sh to a temporary file.
+3. man pwd - shows help page of pwd command.
+4. cd ~ - changes directory to the home directory
+5. mkdir -p /test1/test2/test3 - create directories test1, test2, and test3 in current location if they do not already exist. 
+6. cp -r /tmp . - copy a file recursively (including all sub-directories and files) to current directory.
+7. ls | less - progressively print all files in current directory on the screen.
+8. head -n 24 test.txt » abc.txt - retrieve the first 24 count lines of the file test.txt and store the information in the file abc.txt, creating the file abc.txt if it does not already exist.
+9. echo "aaa" > aaa.txt - will write the text argument "aaa" in the file aaa.txt and will override the file aaa.txt if it already exists.
+10. ps -u sallesina - shows the process status of the uid process of the user sallesina.
+11. top - opens top program that periodically displays a sorted list of system processes.
+12. ls | grep .sh | xargs mv /tmp
+13. du -sk /home/* | sort -r -n | head -10 - list the first 10 lines of display disk usage statistics of all files rooted in the home directory or its nested directory  
+14. sort -r names.txt - sort the text of file names.txt in reverse order.
+
+**IMPORTANT** 
+To submit your answers you must do the following:
+- Login into hoffman.
+- Clone this repository in your home directory.
+- Include your answers in this document using nano (Remember "CTR + X" save the document in nano).
+- Save your changes and push them to your repository. 
+*Note*:If you are NOT sure on how to do this go to Vertion control documents available online
+
+Let me know if you have questions. You can also post your questions in the Discussion forum of the course website.
+
+Daniel
